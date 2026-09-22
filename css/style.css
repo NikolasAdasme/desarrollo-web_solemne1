@@ -1,0 +1,113 @@
+/*Hoja de estilos -- Destino Cordillera*/
+
+/*Paleta de colores*/
+:root {
+    --verde-bosque: #2E7D32;
+    --verde-natural: #43A047;
+    --verde-claro: #81C784;
+    --verde-fondo: #F1F8E9;
+    --verde-oscuro: #1B3A1F;
+    --blanco: #FFFFFF;
+}
+
+/*Configuracion General*/
+body {
+    font-family: Arial, sans-serif;
+    color: var(--verde-oscuro);
+    background-color: var(--verde-fondo);
+    margin: 0;
+}
+
+/*Barra de navegacion*/
+.navbar-destino {
+    background-color: var(--verde-bosque);
+}
+.navbar-destino .navbar-brand {
+    color: var(--blanco);
+}
+
+.navbar-destino .nav-link {
+    color: var(--blanco);
+}
+.navbar-destino .nav-link {
+    color: var(--verde-claro);
+}
+
+/*Seccion principal*/
+.hero-destino {
+    background-color: var(--verde-claro);
+    padding: 100px 20px;
+}
+.hero-destino h1 {
+    color: var(--verde-oscuro);
+    font-size: 3rem;
+    font-weight: bold;
+}
+.hero-destino p {
+    max-width: 700px;
+    margin: 20px auto;
+    font-size: 1.2rem;
+}
+
+/*Botones*/
+.btn-destino {
+    background-color: var(--verde-bosque);
+    color: var(--blanco);
+    border: none;
+    padding: 10px 22px;
+    border-radius: 8px;
+}
+.btn-destino {
+    background-color: var(--verde-natural);
+    color: var(--blanco);
+}
+
+/*Presentacion*/
+.presentacion-destino {
+    background-color: var(--blanco);
+}
+.presentacion-destino h2 {
+    color: var(--verde-bosque);
+}
+.accesos-destino h2 {
+    color: var(--verde-bosque);
+}
+
+/*Imagen(es)*/
+.imagen-placeholder {
+    min-height: 280px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-color: var(--verde-claro);
+    border-radius: 15px;
+    text-align: center;
+    padding: 30px;
+}
+
+/*Tarjetas*/
+.card-destino {
+    background-color: var(--blanco);
+    border-radius: 15px;
+    padding: 25px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+    display: flex;
+    flex-direction: column;
+}
+.card-destino h3 {
+    color: var(--verde-bosque);
+    margin-bottom: 15px;
+}
+.card-destino .btn {
+    margin-top: auto;
+    align-self: flex-start;
+}
+
+/*Pie de pagina*/
+.footer-destino {
+    background-color: var(--verde-oscuro);
+    color: var(--blanco);
+    padding: 25px 0;
+}
